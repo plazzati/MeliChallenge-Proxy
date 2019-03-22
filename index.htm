@@ -1,0 +1,34 @@
+<html>
+   <body>
+      <div align="center"><font size="5"><b>API PROXY MANAGEMENT</b></font></div>
+
+      <form action = "http://127.0.0.1:8081/ip/maxip" method = "POST">
+         <div><b>IP Requests</b></div>
+         <div>Current Max:</div> 
+         New Max: <input type = "number" name = "maxip">
+         <input type = "submit" value = "Submit">
+      </form>
+
+       <form action = "http://127.0.0.1:8081/path/maxpath" method = "POST">
+        <div><b>Path Requests</b></div>
+         <div>Current Max:</div>
+         New Max: <input type = "number" name = "maxpath">
+         <input type = "submit" value = "Submit">
+      </form>
+
+      <form action = "http://127.0.0.1:8081/combination/maxcombination" method = "POST">
+         <div><b>IP & Path Combination Requests</b></div>
+         <div>Current Max:  </div>
+         New Max: <input type = "number" name = "maxcombination">
+         <input type = "submit" value = "Submit">
+      </form>
+		<br>
+		<br>
+		<br>
+      <form action = "http://127.0.0.1:8081/statics" method = "GET">
+         <div><b>Estadisticas</b></div><br>
+         <input type = "submit" name = "statics" value = "Estadisticas">
+      </form>
+
+   </body>
+</html>
